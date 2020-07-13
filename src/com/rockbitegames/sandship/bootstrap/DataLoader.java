@@ -1,4 +1,4 @@
-package com.rockbitegames.sandship.bootsrap;
+package com.rockbitegames.sandship.bootstrap;
 
 import com.rockbitegames.sandship.model.Material;
 import com.rockbitegames.sandship.model.MaterialType;
@@ -8,13 +8,6 @@ import com.rockbitegames.sandship.services.MaterialService;
 import com.rockbitegames.sandship.services.MaterialTypeService;
 import com.rockbitegames.sandship.services.PlayerService;
 import com.rockbitegames.sandship.services.WarehouseService;
-import com.rockbitegames.sandship.services.impl.MaterialServiceImpl;
-import com.rockbitegames.sandship.services.impl.MaterialTypeServiceImpl;
-import com.rockbitegames.sandship.services.impl.PlayerServiceImpl;
-import com.rockbitegames.sandship.services.impl.WarehouseServiceImpl;
-
-import java.util.LinkedList;
-import java.util.List;
 
 public class DataLoader {
     private  PlayerService playerService;
